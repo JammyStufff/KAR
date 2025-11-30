@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":16,
   "bbox_left":3,
-  "bbox_right":16,
+  "bbox_right":17,
   "bbox_top":2,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"db0d7134-921d-40d5-b696-808058c2e27a","name":"db0d7134-921d-40d5-b696-808058c2e27a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"487c133c-3e4d-45d7-b441-6b143e17ba90","name":"487c133c-3e4d-45d7-b441-6b143e17ba90","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":20,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c87df973-fc78-43ef-95ab-32eddbd66c74","blendMode":0,"displayName":"default","isLocked":false,"name":"c87df973-fc78-43ef-95ab-32eddbd66c74","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ac3fee44-59db-44c9-9df6-8a2447b51029","blendMode":0,"displayName":"default","isLocked":false,"name":"ac3fee44-59db-44c9-9df6-8a2447b51029","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sKirbyside",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"kirby sprites",
+    "path":"folders/Sprites/kirby sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -70,7 +70,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"db0d7134-921d-40d5-b696-808058c2e27a","path":"sprites/sKirbyside/sKirbyside.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a02eb5c2-ecfb-476b-88bb-eb4a4ebeca95","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"487c133c-3e4d-45d7-b441-6b143e17ba90","path":"sprites/sKirbyside/sKirbyside.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"abefe7f6-76f7-419d-b751-742392f6e4ca","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,0 +1,1 @@
+canbetouched = 0
