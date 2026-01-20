@@ -3,7 +3,7 @@
 if keyboard_check(vk_left)
 {
 	sprite_index = sprSide;
-	
+	left = true
 	image_xscale = -1
 	xspd -= 0.10
 }
@@ -11,7 +11,7 @@ if keyboard_check(vk_left)
 if keyboard_check(vk_right)
 {
 	sprite_index = sprSide;
-	
+	right = true
 	image_xscale = 1
 	xspd += 0.10
 }
@@ -19,15 +19,17 @@ if keyboard_check(vk_right)
 
 if keyboard_check(vk_up)
 {
+	image_xscale = 1
 	sprite_index = sprUp;
-	
+	up = true
 	yspd -= 0.10
 }
 
 if keyboard_check(vk_down)
 {
+	image_xscale =1
 	sprite_index = sprDown;
-	
+	down = true
 	yspd += 0.10
 }
 
@@ -59,24 +61,51 @@ y += yspd
 
 //slowdown if button released
 
+if keyboard_check_released(vk_right) && xspd < 0
+{
+right = false
+
+}
+
+if keyboard_check_released(vk_left) &&  xspd > 0
+{
+	left = false
+}
+
+if keyboard_check_released(vk_up) &&  yspd > 0
+{
+up = false
+
+}
+
+if keyboard_check_released(vk_down) && yspd < 0
+{
+	down = false
+
+}
+
 if keyboard_check_released(vk_right) && xspd > 3
 {
 xspd -= 2
+
 }
 
 if keyboard_check_released(vk_left) &&  xspd < -3
 {
 	xspd += 2
+
 }
 
 if keyboard_check_released(vk_up) &&  yspd < -3
 {
 	yspd += 2
+
 }
 
 if keyboard_check_released(vk_down) && yspd > 3
 {
 	yspd -= 2
+
 }
 
 //cap speeds
@@ -102,34 +131,38 @@ if yspd < -5
 }
 
 
+
 //dash code
 
 if keyboard_check(vk_space)
 {
+	suck = 1
 	dasht += 0.5
 	if keyboard_check(vk_right)
 	{
-		xspd -= 0.05
+		xspd -= 0.06
 	}
 	
 		if keyboard_check(vk_left)
 	{
-		xspd += 0.05
+		xspd += 0.06
 	}
 	
 	if keyboard_check(vk_up)
 	{
-		yspd += 0.05
+		yspd += 0.06
 	}
 	
 	if keyboard_check(vk_down)
 	{
-		yspd -= 0.05
+		yspd -= 0.06
 	}
+
 }
 
-if keyboard_check_released(vk_space) && dasht = 30
+if keyboard_check_released(vk_space) && dasht > 19
 {
+
 	if keyboard_check(vk_right)  
 	{
 		xspd += 7
@@ -174,9 +207,9 @@ if keyboard_check_released(vk_space) && dasht = 30
 	}
 }
 
-if dasht > 30
+if dasht > 25
 {
-	dasht = 30
+	dasht = 25
 }
 if keyboard_check_released(vk_space) && dasht < 29
 {
@@ -197,5 +230,3 @@ if keyboard_check(vk_f1)
 {
  room_goto(track_1)
 }
-
-//end lap

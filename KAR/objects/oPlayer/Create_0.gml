@@ -1,17 +1,22 @@
 xspd = 0
 yspd = 0
-cspd = 15
-ncspd = -15
-suck = 0
+up = false
+down = false
+left = false
+right = false
 character = characters.kirby
 dasht = 0
-global.lap = 0
+global.Lap = 0
+checkpoint1 = 0
+
 
 enum characters
 {
 	kirby,
 	dedede,
 	metaknight,
+	gooey,
+	nz,
 	
 	length
 }
@@ -24,5 +29,13 @@ enum characterInfoParams
 characterInfo[characters.kirby][characterInfoParams.spriteSetScript] = scr_Player_SetSprites_Kirby;
 characterInfo[characters.dedede][characterInfoParams.spriteSetScript] = scr_Player_SetSprites_dedede;
 characterInfo[characters.metaknight][characterInfoParams.spriteSetScript] = scr_Player_SetSprites_meta;
+characterInfo[characters.gooey][characterInfoParams.spriteSetScript] = scr_Player_SetSprites_gooey;
+characterInfo[characters.nz][characterInfoParams.spriteSetScript] = scr_Player_SetSprites_nz;
 
 script_execute(characterInfo[character][characterInfoParams.spriteSetScript]);
+
+
+
+
+
+

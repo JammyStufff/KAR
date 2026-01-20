@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"kirby sprites",
-    "path":"folders/Sprites/kirby sprites.yy",
+    "path":"folders/Sprites/character sprites/kirby sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
