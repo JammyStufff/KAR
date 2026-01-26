@@ -112,22 +112,22 @@ if keyboard_check_released(vk_down) && yspd > 3
 
 if xspd > 5
 {
-	xspd = 5
+	xspd -= 0.13
 }
 
 if yspd > 5
 {
-	yspd = 5
+	yspd -= 0.13
 }
 
 if xspd < -5
 {
-	xspd = -5
+	xspd += 0.13
 }
 
 if yspd < -5
 {
-	yspd = -5
+	yspd += 0.13
 }
 
 
@@ -140,22 +140,40 @@ if keyboard_check(vk_space)
 	dasht += 0.5
 	if keyboard_check(vk_right)
 	{
-		xspd -= 0.06
+		xspd -= 0.14
+		if xspd < 0.0
+		{
+			xspd = 0.0
+		}
 	}
 	
 		if keyboard_check(vk_left)
 	{
-		xspd += 0.06
+		xspd += 0.14
+		if xspd  > 0.0
+		{
+			xspd = -0.0
+		}
+
 	}
 	
 	if keyboard_check(vk_up)
 	{
-		yspd += 0.06
-	}
+		yspd += 0.14
 	
+		if yspd  > 0.0
+		{
+			yspd = -0.0
+		}
+	}
 	if keyboard_check(vk_down)
 	{
-		yspd -= 0.06
+		yspd -= 0.14
+	
+		if yspd < 0.0
+		{
+			yspd = 0.0
+		}
 	}
 
 }
@@ -165,7 +183,7 @@ if keyboard_check_released(vk_space) && dasht > 19
 
 	if keyboard_check(vk_right)  
 	{
-		xspd += 7
+		xspd += 4
 		dasht = 0
 		
 	}
@@ -226,7 +244,3 @@ if keyboard_check_pressed(vk_backspace)
 	script_execute(characterInfo[character][characterInfoParams.spriteSetScript]);
 }
 
-if keyboard_check(vk_f1)
-{
- room_goto(track_1)
-}

@@ -1,0 +1,1 @@
+global.sselect = 0

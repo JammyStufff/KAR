@@ -16,7 +16,7 @@ enum characters
 	dedede,
 	metaknight,
 	gooey,
-	nz,
+	rick,
 	
 	length
 }
@@ -30,7 +30,7 @@ characterInfo[characters.kirby][characterInfoParams.spriteSetScript] = scr_Playe
 characterInfo[characters.dedede][characterInfoParams.spriteSetScript] = scr_Player_SetSprites_dedede;
 characterInfo[characters.metaknight][characterInfoParams.spriteSetScript] = scr_Player_SetSprites_meta;
 characterInfo[characters.gooey][characterInfoParams.spriteSetScript] = scr_Player_SetSprites_gooey;
-characterInfo[characters.nz][characterInfoParams.spriteSetScript] = scr_Player_SetSprites_nz;
+characterInfo[characters.rick][characterInfoParams.spriteSetScript] = scr_Player_SetSprites_nz;
 
 script_execute(characterInfo[character][characterInfoParams.spriteSetScript]);
 

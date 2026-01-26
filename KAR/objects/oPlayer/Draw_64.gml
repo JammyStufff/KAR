@@ -5,5 +5,5 @@ draw_text(59, 230, "lap " + string(global.Lap))
 
 
 
-draw_sprite_ext(sfuelmeter, -1, 378, 668, dasht / 2, 2.174 , 0,c_white, 1)
+draw_sprite_ext(sfuelmeter, -1, 378, 668, dasht , 2 , 0,c_white, 1)
 
