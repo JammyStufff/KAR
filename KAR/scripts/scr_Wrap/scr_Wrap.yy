@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_Wrap",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_Wrap",
+  "parent":{
+    "name":"Math",
+    "path":"folders/Scripts/Utilities/Math.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
