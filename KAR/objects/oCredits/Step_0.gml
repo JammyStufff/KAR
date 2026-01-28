@@ -1,8 +1,6 @@
-if (selected == true)
+
+if global.sselect = 0 && global.select = 0
 {
 	sprite_index = sCreditsselected
-}
-else
-{
-	sprite_index = sCredits
+	select = 1
 }

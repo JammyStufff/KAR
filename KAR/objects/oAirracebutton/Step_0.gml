@@ -1,12 +1,19 @@
-if (selected == true)
+if global.select = 1
 {
 	sprite_index = sMainselected
 	if keyboard_check(ord("Z"))
 	{
-		room_goto(rGame)
+		room_goto_next()
 	}
 }
-else
+
+if keyboard_check(vk_down)
 {
+	global.select = 0
 	sprite_index = sMainbutton
+}
+
+if keyboard_check(vk_up)
+{
+	global.select = 1
 }

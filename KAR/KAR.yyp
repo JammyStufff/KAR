@@ -15,13 +15,10 @@
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Main Menu","folderPath":"folders/Objects/Main Menu.yy","name":"Main Menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Utilities","folderPath":"folders/Scripts/Utilities.yy","name":"Utilities","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Math","folderPath":"folders/Scripts/Utilities/Math.yy","name":"Math","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sequences","folderPath":"folders/Sequences.yy","name":"Sequences","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Shaders","folderPath":"folders/Shaders.yy","name":"Shaders","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -50,8 +47,6 @@
   },
   "name":"KAR",
   "resources":[
-    {"id":{"name":"o_GameManager","path":"objects/o_GameManager/o_GameManager.yy",},},
-    {"id":{"name":"o_MainMenuManager","path":"objects/o_MainMenuManager/o_MainMenuManager.yy",},},
     {"id":{"name":"oAirracebutton","path":"objects/oAirracebutton/oAirracebutton.yy",},},
     {"id":{"name":"oCar","path":"objects/oCar/oCar.yy",},},
     {"id":{"name":"oCredits","path":"objects/oCredits/oCredits.yy",},},
@@ -61,14 +56,9 @@
     {"id":{"name":"opoint1","path":"objects/opoint1/opoint1.yy",},},
     {"id":{"name":"osettingsbutton","path":"objects/osettingsbutton/osettingsbutton.yy",},},
     {"id":{"name":"oStart","path":"objects/oStart/oStart.yy",},},
-<<<<<<< HEAD
     {"id":{"name":"debug","path":"rooms/debug/debug.yy",},},
-=======
-    {"id":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
->>>>>>> pr/3
     {"id":{"name":"rMainmenu","path":"rooms/rMainmenu/rMainmenu.yy",},},
     {"id":{"name":"rTitleScreen","path":"rooms/rTitleScreen/rTitleScreen.yy",},},
-    {"id":{"name":"scr_MoveToward","path":"scripts/scr_MoveToward/scr_MoveToward.yy",},},
     {"id":{"name":"scr_Player_SetSprites_dedede","path":"scripts/scr_Player_SetSprites_dedede/scr_Player_SetSprites_dedede.yy",},},
     {"id":{"name":"scr_Player_SetSprites_Gooey","path":"scripts/scr_Player_SetSprites_Gooey/scr_Player_SetSprites_Gooey.yy",},},
     {"id":{"name":"scr_Player_SetSprites_Kirby","path":"scripts/scr_Player_SetSprites_Kirby/scr_Player_SetSprites_Kirby.yy",},},
@@ -76,7 +66,6 @@
     {"id":{"name":"scr_Player_SetSprites_Nago","path":"scripts/scr_Player_SetSprites_Nago/scr_Player_SetSprites_Nago.yy",},},
     {"id":{"name":"scr_Player_SetSprites_Rick","path":"scripts/scr_Player_SetSprites_Rick/scr_Player_SetSprites_Rick.yy",},},
     {"id":{"name":"scr_Transition","path":"scripts/scr_Transition/scr_Transition.yy",},},
-    {"id":{"name":"scr_Wrap","path":"scripts/scr_Wrap/scr_Wrap.yy",},},
     {"id":{"name":"in","path":"sequences/in/in.yy",},},
     {"id":{"name":"out","path":"sequences/out/out.yy",},},
     {"id":{"name":"finline","path":"sprites/finline/finline.yy",},},
@@ -145,11 +134,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rTitleScreen","path":"rooms/rTitleScreen/rTitleScreen.yy",},},
     {"roomId":{"name":"rMainmenu","path":"rooms/rMainmenu/rMainmenu.yy",},},
-<<<<<<< HEAD
     {"roomId":{"name":"debug","path":"rooms/debug/debug.yy",},},
-=======
-    {"roomId":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
->>>>>>> pr/3
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -1,10 +1,8 @@
 function scr_Player_SetSprites_Rick()
 {
-	return {
-		"Side" : sRickside,
-		"Up" : sRickup,
-		"Down" : sRickdown,
-		"DiagonalDown" : sRickdiagonal,
-		"DiagonalUp" : sRickdiagonal2,
-	}
+	sprSide = sRickside;
+	sprUp = sRickup;
+	sprDown = sRickdown;
+	sprdiagonaldown = sRickdiagonal;
+	sprdiagonalup = sRickdiagonal2;
 }
