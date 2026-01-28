@@ -1,8 +1,10 @@
 function scr_Player_SetSprites_meta()
 {
-	sprSide = smkside;
-	sprUp = smkup;
-	sprDown = smkdown;
-	sprdiagonaldown = smkdiagonal1;
-	sprdiagonalup = smkdiagonal2;
+	return {
+		"Side" : smkside,
+		"Up" : smkup,
+		"Down" : smkdown,
+		"DiagonalDown" : smkdiagonal1,
+		"DiagonalUp" : smkdiagonal2,
+	}
 }

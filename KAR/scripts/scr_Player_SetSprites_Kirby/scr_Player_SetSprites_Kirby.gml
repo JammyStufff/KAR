@@ -1,8 +1,10 @@
 function scr_Player_SetSprites_Kirby()
 {
-	sprSide = sKirbyside;
-	sprUp = sKirbyup;
-	sprDown = sKirbydown;
-	sprdiagonaldown = sKirbyDiagonal;
-	sprdiagonalup = sKirbydiagonal2;
+	return {
+		"Side" : sKirbyside,
+		"Up" : sKirbyup,
+		"Down" : sKirbydown,
+		"DiagonalDown" : sKirbyDiagonal,
+		"DiagonalUp" : sKirbydiagonal2,
+	}
 }

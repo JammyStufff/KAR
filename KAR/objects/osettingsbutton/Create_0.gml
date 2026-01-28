@@ -1,1 +1,1 @@
-global.sselect = 0
+selected = false
