@@ -17,7 +17,6 @@ enum characters
 	metaknight,
 	gooey,
 	rick,
-	nago,
 	
 	length
 }
@@ -32,7 +31,6 @@ characterInfo[characters.dedede][characterInfoParams.spriteSetScript] = scr_Play
 characterInfo[characters.metaknight][characterInfoParams.spriteSetScript] = scr_Player_SetSprites_meta;
 characterInfo[characters.gooey][characterInfoParams.spriteSetScript] = scr_Player_SetSprites_gooey;
 characterInfo[characters.rick][characterInfoParams.spriteSetScript] = scr_Player_SetSprites_Rick;
-characterInfo[characters.nago][characterInfoParams.spriteSetScript] = scr_Player_SetSprites_nago;
 
 script_execute(characterInfo[character][characterInfoParams.spriteSetScript]);
 
