@@ -9,6 +9,11 @@ dasht = 0
 global.Lap = 0
 checkpoint1 = 0
 
+accelSpeed = 0.13
+decelSpeed = 0.07 
+topSpeed = 5
+dashSpeed = 7
+
 
 enum characters
 {
@@ -32,10 +37,19 @@ characterInfo[characters.metaknight][characterInfoParams.spriteSetScript] = scr_
 characterInfo[characters.gooey][characterInfoParams.spriteSetScript] = scr_Player_SetSprites_gooey;
 characterInfo[characters.rick][characterInfoParams.spriteSetScript] = scr_Player_SetSprites_Rick;
 
-script_execute(characterInfo[character][characterInfoParams.spriteSetScript]);
+setupCharacter()
 
+vehicleSprites = {  //To get any of these, just do vehicleSprites[$ key name]
+	"Side" : sWSside,
+	"Up" : sWSup,
+	"Down" : sWSdown,
+	"DiagonalDown" : sWSdiagonal1,
+	"DiagonalUp" : sWSdiagonal2,
+}
 
+currentSprite = "Side" //Player sprites are now string IDs
 
-
-
-
+function setupCharacter()
+{
+	playerSprites = script_execute(characterInfo[character][characterInfoParams.spriteSetScript]);
+}

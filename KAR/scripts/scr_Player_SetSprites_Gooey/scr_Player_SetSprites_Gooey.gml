@@ -1,8 +1,10 @@
 function scr_Player_SetSprites_gooey()
 {
-	sprSide = sGooside;
-	sprUp = sGooup;
-	sprDown = sGoodown;
-	sprdiagonaldown = sGoodiagonal;
-	sprdiagonalup = sGoodiagonal2;
+	return {
+		"Side" : sGooside,
+		"Up" : sGooup,
+		"Down" : sGoodown,
+		"DiagonalDown" : sGoodiagonal,
+		"DiagonalUp" : sGoodiagonal2,
+	}
 }

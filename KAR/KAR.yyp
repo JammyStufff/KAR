@@ -49,6 +49,7 @@
   },
   "name":"KAR",
   "resources":[
+    {"id":{"name":"o_GameManager","path":"objects/o_GameManager/o_GameManager.yy",},},
     {"id":{"name":"o_MainMenuManager","path":"objects/o_MainMenuManager/o_MainMenuManager.yy",},},
     {"id":{"name":"oAirracebutton","path":"objects/oAirracebutton/oAirracebutton.yy",},},
     {"id":{"name":"oCar","path":"objects/oCar/oCar.yy",},},
@@ -58,8 +59,10 @@
     {"id":{"name":"opoint1","path":"objects/opoint1/opoint1.yy",},},
     {"id":{"name":"osettingsbutton","path":"objects/osettingsbutton/osettingsbutton.yy",},},
     {"id":{"name":"oStart","path":"objects/oStart/oStart.yy",},},
+    {"id":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
     {"id":{"name":"rMainmenu","path":"rooms/rMainmenu/rMainmenu.yy",},},
     {"id":{"name":"rTitleScreen","path":"rooms/rTitleScreen/rTitleScreen.yy",},},
+    {"id":{"name":"scr_MoveToward","path":"scripts/scr_MoveToward/scr_MoveToward.yy",},},
     {"id":{"name":"scr_Player_SetSprites_dedede","path":"scripts/scr_Player_SetSprites_dedede/scr_Player_SetSprites_dedede.yy",},},
     {"id":{"name":"scr_Player_SetSprites_Gooey","path":"scripts/scr_Player_SetSprites_Gooey/scr_Player_SetSprites_Gooey.yy",},},
     {"id":{"name":"scr_Player_SetSprites_Kirby","path":"scripts/scr_Player_SetSprites_Kirby/scr_Player_SetSprites_Kirby.yy",},},
@@ -130,6 +133,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rTitleScreen","path":"rooms/rTitleScreen/rTitleScreen.yy",},},
     {"roomId":{"name":"rMainmenu","path":"rooms/rMainmenu/rMainmenu.yy",},},
+    {"roomId":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

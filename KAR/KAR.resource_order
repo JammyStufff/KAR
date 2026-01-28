@@ -30,6 +30,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"o_GameManager","order":9,"path":"objects/o_GameManager/o_GameManager.yy",},
     {"name":"o_MainMenuManager","order":3,"path":"objects/o_MainMenuManager/o_MainMenuManager.yy",},
     {"name":"oCar","order":1,"path":"objects/oCar/oCar.yy",},
     {"name":"oCredits","order":1,"path":"objects/oCredits/oCredits.yy",},
@@ -37,7 +38,9 @@
     {"name":"opoint1","order":3,"path":"objects/opoint1/opoint1.yy",},
     {"name":"osettingsbutton","order":2,"path":"objects/osettingsbutton/osettingsbutton.yy",},
     {"name":"oStart","order":4,"path":"objects/oStart/oStart.yy",},
+    {"name":"rGame","order":2,"path":"rooms/rGame/rGame.yy",},
     {"name":"rMainmenu","order":1,"path":"rooms/rMainmenu/rMainmenu.yy",},
+    {"name":"scr_MoveToward","order":1,"path":"scripts/scr_MoveToward/scr_MoveToward.yy",},
     {"name":"scr_Player_SetSprites_dedede","order":1,"path":"scripts/scr_Player_SetSprites_dedede/scr_Player_SetSprites_dedede.yy",},
     {"name":"scr_Player_SetSprites_Gooey","order":3,"path":"scripts/scr_Player_SetSprites_Gooey/scr_Player_SetSprites_Gooey.yy",},
     {"name":"scr_Player_SetSprites_meta","order":2,"path":"scripts/scr_Player_SetSprites_meta/scr_Player_SetSprites_meta.yy",},
